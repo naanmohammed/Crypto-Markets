@@ -31,7 +31,8 @@
   }
 
   .lessThan {
-    padding-top: 10px;
+    padding-top: 16px;
+    height: 16px;
   }
 
   @media only screen and (max-width: 600px) {
