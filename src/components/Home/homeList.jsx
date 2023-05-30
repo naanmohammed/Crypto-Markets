@@ -24,8 +24,7 @@ function HomeList() {
 
   return (
     <ul className="itemList">
-      {filteredCrypto.map((crypto) => 
-        <HomeItem key={crypto.id} crypto={crypto} />)}
+      {filteredCrypto.map((crypto) => <HomeItem key={crypto.id} crypto={crypto} />)}
     </ul>
   );
 }
