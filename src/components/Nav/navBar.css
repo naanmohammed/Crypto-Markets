@@ -1,64 +1,64 @@
 .navItems {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 10px;
+  font-size: 20px;
+  background-color: rgb(241, 12, 51);
+  color: white;
+}
+
+li {
+  list-style: none;
+}
+
+.icons,
+.navItems li {
+  display: flex;
+  gap: 20px;
+}
+
+.hometext {
+  text-decoration: none;
+  color: white;
+  font-size: 16px;
+}
+
+img {
+  height: 24px;
+}
+
+.lessThan {
+  height: 16px;
+  width: 16px;
+  margin-right: -10px;
+  margin-bottom: 3px;
+}
+
+.pageTitle {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 3px;
+}
+
+.icons img {
+  width: 20px;
+  height: 16px;
+}
+
+@media only screen and (max-width: 600px) {
+  .navLinks {
     padding: 20px 10px;
-    font-size: 20px;
-    background-color: rgb(241, 12, 51);
-    color: white;
-  }
-  
-  li {
-    list-style: none;
-  }
-
-  .icons,
-  .navItems li {
-    display: flex;
-    gap: 20px;
-  }
-
-  .hometext {
-    text-decoration: none;
-    color: white;
     font-size: 16px;
+    color: white;
   }
 
-  img {
-    height: 24px;
+  .icons-class {
+    width: 60px;
   }
 
-  .lessThan {
-    height: 16px;
-    width: 16px;
-    margin-right: -10px;
-    margin-bottom: 3px;
+  .lessthan {
+    font-size: 12px;
   }
-
-  .pageTitle {
-    font-size: 18px;
-    font-weight: bold;
-    margin-bottom: 3px;
-  }
-
-  .icons img {
-    width: 20px;
-    height: 16px;
-  }
-
-  @media only screen and (max-width: 600px) {
-    .navLinks {
-      padding: 20px 10px;
-      font-size: 16px;
-      color: white;
-    }
-  
-    .icons-class {
-      width: 60px;
-    }
-  
-    .lessthan {
-      font-size: 12px;
-    }
-  }
+}

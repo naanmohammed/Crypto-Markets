@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
-import arrow from '../../Assets/right-arrow.png'
+import arrow from '../../Assets/right-arrow.png';
 
 const HomeItem = (props) => {
   const { crypto } = props;
@@ -38,8 +38,8 @@ const HomeItem = (props) => {
         <Link
           to={`/details/${id}`}
         >
-          <img src={arrow} alt={name} className='arrow' />
-        </Link>
+          <img src={arrow} alt={name} className="arrow" />
+      </Link>
       </div>
     </li>
   );
