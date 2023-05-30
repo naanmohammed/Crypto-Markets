@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 import arrow from '../../Assets/right-arrow.png';
 
-const HomeItem = (props) => {
+function HomeItem(props) {
   const { crypto } = props;
 
   const {
@@ -43,7 +43,7 @@ const HomeItem = (props) => {
       </div>
     </li>
   );
-};
+}
 
 HomeItem.propTypes = {
   crypto: PropTypes.shape({
