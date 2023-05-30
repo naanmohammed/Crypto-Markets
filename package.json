@@ -50,6 +50,6 @@
   "devDependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "eslint-config-airbnb": "^19.0.4",
-    "@redux-thunk@2.4.2"
+    "@redux-thunk": "^2.4.2"
   }
 }
