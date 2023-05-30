@@ -39,7 +39,7 @@ const HomeItem = (props) => {
           to={`/details/${id}`}
         >
           <img src={arrow} alt={name} className="arrow" />
-      </Link>
+        </Link>
       </div>
     </li>
   );

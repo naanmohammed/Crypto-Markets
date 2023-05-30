@@ -34,7 +34,7 @@ describe('HomeList', () => {
     render(
       <MemoryRouter>
         <HomeList />
-      </MemoryRouter>
+      </MemoryRouter>,
     );
 
     expect(screen.getByText('Bitcoin')).toBeInTheDocument();
@@ -49,7 +49,7 @@ describe('HomeList', () => {
     render(
       <MemoryRouter>
         <HomeList />
-      </MemoryRouter>
+      </MemoryRouter>,
     );
 
     expect(mockDispatch).toHaveBeenCalledWith(fetchCoins());

@@ -9,7 +9,7 @@ describe('Navigation', () => {
     render(
       <Router>
         <Navigation />
-      </Router>
+      </Router>,
     );
 
     expect(screen.getByAltText('less than Icon')).toBeInTheDocument();
@@ -17,6 +17,7 @@ describe('Navigation', () => {
     expect(screen.getByText('Crypto Info')).toBeInTheDocument();
     expect(screen.getByAltText('Mic Icon')).toBeInTheDocument();
     expect(screen.getByAltText('Setting Icon')).toBeInTheDocument();
+    
   });
 
 });
