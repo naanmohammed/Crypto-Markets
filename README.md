@@ -4,7 +4,7 @@
 <div align="center">
 
   <h1><b>CryptoMetrics: React Capstone Project </b></h1>
-  <img src="./src/Images/Capstone.png" alt="Readme Image">
+  <img src="./src/Assets/Capstone.png" alt="Readme Image">
 
 </div>
 
