@@ -4,7 +4,7 @@
 <div align="center">
 
   <h1><b>CryptoMetrics: React Capstone Project </b></h1>
-  <img src="./src/Images/Capstone.png" alt="Readme Image">
+  <img src="./src/Assets/Capstone.jpg" alt="Readme Image">
 
 </div>
 
@@ -80,7 +80,7 @@ Stay ahead of the curve with Crypto Metrics Mobile and gain valuable insights in
 ## 🚀 Live Demo <a name="live-demo"></a>
 
 - Here is a [livedemo](https://crypto-metrics-mobile.onrender.com).
-- Here is a [demonstration video]() with the main features of the project we built.
+- Here is a [demonstration video](https://www.loom.com/share/cd644859acc0403f9ebdb3dfd11c6405) with the main features of the project we built.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
