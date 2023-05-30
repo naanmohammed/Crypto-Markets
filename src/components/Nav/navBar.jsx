@@ -10,11 +10,11 @@ function Navigation() {
     <nav>
       <ul className="navItems">
         <li>
-          <img src={lessthan} alt="less than Icon" className="lessThan" />
-          <Link to="/" className="home">Home</Link>
+          <Link to="/"><img src={lessthan} alt="less than Icon" className="lessThan" /></Link>
+          <Link to="/" className="hometext">Home</Link>
         </li>
         <li>
-          <h1>Crypto Info</h1>
+          <h1 className="pageTitle">Crypto Info</h1>
         </li>
         <li>
           <div className="icons">
