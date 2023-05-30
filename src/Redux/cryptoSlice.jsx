@@ -25,9 +25,7 @@ export const fetchCoins = createAsyncThunk(
       priceChange1h: coin.priceChange1h,
       priceChange1w: coin.priceChange1w,
       totalSupply: coin.totalSupply,
-      twitterUrl: coin.twitterUrl,
       volume: coin.volume,
-      websiteUrl: coin.websiteUrl,
       show: false,
     }));
 
